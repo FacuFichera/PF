@@ -3,271 +3,140 @@
     padding: 0%;
     box-sizing: border-box;
 }
+
+
 body{
     background-color:  rgb(2, 90, 117);
-    text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.titulo__{
-    text-align: center;
-  
-    color: whitesmoke;
-    text-shadow:black 0.5px 0.5px;
-    text-shadow: white 1px 1px;
-    margin-top: 20px;
-}
-.subtitulo__{
-    text-align: center;
     
-    color: whitesmoke;
-    text-shadow:black 0.5px 0.5px;
-    margin-bottom: 1rem;
 }
 
-.contenedor__index{
-    padding: 20px;
-    background-color: rgb(2, 90, 117);
-    display: grid;
-    grid-template-columns: min-content auto;
- 
+/*INDEX*/
+
+.conteiner__fluid{
+    text-shadow: 2px 2px black;
 }
 
-.parrafo__index{
-    margin-bottom: 1rem;
-    font-size: 30px;
+.imagen{
+    width: 100%;
 }
-.main__index > imgs__index{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.imagen img {
+    width: 100%;
 }
-.menu {    
-    text-decoration: none;
-    list-style: none;
-    font-style: normal;
-    color: rgb(0, 0, 0);
-    text-shadow:white 0.2px 0.2px;
-    list-style: none;
-    text-align: center;
+
+.galeria{
     width: 100%;
     margin: auto;
-}
-
-.menu li  {
-    display: inline-block;
-    text-align: center;
-    background-color: white ;
-    border-radius: 15px;
-    padding: 10px;
-}
-.menu li:hover{
-    background-color: black;
-    transform: scale(0.8);
-    box-shadow: 1px 1px 10px white;
-    color: whitesmoke;
-    transform: rotate(2deg);
-
-}
-
-footer{
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-shadow: white 0.5px 0.5px;
-}
-.footer__sponsors{
-    background-color: #f4f4f4;
-    color: rgb(2, 90, 117);;
-}
-.img__kappa{
-    width: 30%;
-    margin: 0px auto;
-    display: block;
-}
-
-.img__aereoset{
-    width: 20%;
-    margin: 0px auto;
-    display: block;
-}
-
-.img__cilindro{
-    width: 477px;
-}
-
-.img__escudo{
-    width: 90px;
-}
-
-/*HISTORIA*/
-
-.body-historia{
     text-align: center;
     display: grid;
+    grid-template-columns: repeat(3,1.5fr);
 }
 
-.jose{
-    font-family: Arial, Helvetica, sans-serif;
-    text-shadow: black 0.5px ;
-}
-
-.infocampeon{
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    text-shadow: rgb(0, 0, 0) 0.5px;
-    
-}
-
-.copa{
-    width: 100%;
-}
-
-.infoclasico{
-    margin-top: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 10px 10px;
-    color: white;
-}
-.clasico{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(250, 250, 250);
-    text-shadow: black 0.4px ;
-}
-
-.chelo{
-    width: 100%;
-}
-
-
-/*JUGADORES*/
-
-.grid__container{
-    display:grid;
-    gap: 10px;
-    grid-template-columns:repeat(auto-fit , minmax(150px,1fr));
-}
-
-.grid__container > grid__item{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.grid__item{
-    width: 100%;
-    margin-top: 20px;
-}
-
-/*LOCADEMIA*/
-
-.introduccionLocademia{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: xx-large;
-    background-color: rgb(2, 90, 117);
-    color: white;
-    box-shadow: white;
-}
-
-h3{
-    color: white;
+.p__datos{
+    background-color: white;
     text-align: center;
-    background-color:rgb(2, 90, 117) ;
-    margin-top: 10px;
+    font-size: 45px;
+    border-color: black;
+    border-style: solid;    
 }
+
+
+.img__elemento1 p {
+font-size: 2rem;
+
+
+color: white;
+background-color: rgb(49, 125, 190);
+}
+
+.img__elemento2 p{
+    font-size: 2rem;
+    background-color: rgb(49, 125, 190); 
+    color: white;
+}
+
+.img__elemento3 p{
+    font-size: 2rem;
+    background-color: rgb(49, 125, 190); 
+    color: white;
+}
+
+.p__index{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px;
+}
+.galeria__sponsor1{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2,1.5fr);
+}
+
+.img__kappa{
+    width: 80%;
+}
+.img__aeroset1{
+    width: 55%;
+}
+
+.titulo__galeria{
+    background-color: white;
+    color:  rgb(2, 90, 117);
+    text-align: center;
+}
+
+#carouselExampleIndicators{
+    width: 70%;
+}
+
+.footer-container{
+    width: 100%;
+    margin: auto;
+
+}
+
+.columnas__footer{
+    width: 33.333%;
+    float: left;
+    background-color: gray;
+    color: white;
+}
+
+.titulo__footer{
+    color: white;
+
+}
+
+
+
+
 
 /*NOTICIAS*/
 
-.pp{
-    font-family: 'Courier New', Courier, monospace;
-    background-color:rgb(2, 90, 117);
-    margin-bottom: 20px;
-}
+h5{
+    background-color: white;
+    color:rgb(2, 90, 117); ;
+     }
 
-.proximospartidos{
-    font-size: 50px;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: white;
-}
+    #Menu__bs a {
+        font-size: 23px;
+        font-weight: bold;
+       }
 
-.tit{
-    background-color: rgb(2, 90, 117);
-}
-.parias{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
-}
-.Formacion{
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-/*MOBILE*/
-
-@media (max-width:420px){
-
-   
-    .img__escudo{
-        width: 100px;
+    #carouselExampleCaptions1{
+        width: 55%;
+    }   
+    
+    h3{
+        background-color: white;
+        color:rgb(2, 90, 117) ;
+        text-align: center;
+        margin-top: 30px;
     }
 
-  
-    
-    .titulo__{
-        font-size: 1.4rem;
-        color: f4f4f4;
-        text-shadow: rgb(0, 0, 0) 1px 1px;
-        margin-top: 20px;
-     
-    }
-    
-    .subtitulo__{
-        font-size: 1rem;
-        color: f4f4f4;
-        text-shadow: rgb(0, 0, 0) 1px 1px;
-        margin-top: 10px;
-    }
-    
-    .menu{
-        font-size: 0.8rem;
-        margin-top: 15px;
-        padding: auto;
-        color:  rgb(2, 90, 117);
-        font-size: 0.6rem;
-    }
-    
-    .menu li{
-        background-color: #f4f4f4;
-        border-radius: 20px;
-        padding: 10px;
-        margin-bottom: 30px;
-    }
-    
-    .parrafo__index{
-        color:#f4f4f4 ;
-        text-shadow: rgb(0, 0, 0) 1px 1px;
-        font-size: 1rem;
-    }
-    
-    .img__socio{
-        width: 350px;
-        margin-top: 2rem;
-    }
-    
-    .footer__sponsors{
-        font-size: 1.4rem;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        text-shadow: black 1px 1px;
-    }
-    
-    .img__aereoset{
-        width: 200px;
-    }
-    .img__kappa{
-        width: 300px;
-    }
-    
-    .img__cilindro{
-        width: 350px;
-    }
-    }
     

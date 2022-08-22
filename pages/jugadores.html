@@ -4,50 +4,193 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!--CSS-->
-
-    <link rel="stylesheet" href="../css/styles.css">
-    
     <title>RacingClub | Jugadores</title>
 
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
+
+    <!--CSS-->
+    <link rel="stylesheet" href="../css/styles.css">
 
 </head>
 <body>
- 
-    <header >
-        <h1 class="titulo__">RACING CLUB DE AVELLANEDA</h1>
-        <h2 class="subtitulo__" >BIENVENIDOS AL PRIMER GRANDE</h2>
-        <img src="../img/escudo.png" alt="" class="img__escudo">
-        <nav class="indice__index">
-            <ul class="menu">
-                <li><a href="../index.html" class="menu">INICIO</a> </li>
-                <li><a href="./historia.html" class="menu">HISTORIA</a></li>
-                <li><a href="./jugadores.html"class="menu">JUGADORES</a></li>
-                <li><a href="./locademia.html"class="menu">LOCADEMIA</a></li>
-                <li><a href="./noticias.html"class="menu">NOTICIAS</a></li>  
-            </ul>
-        </nav>
-    </header>
+    <p class="bg-primary text-light d-flex justify-content-center">Contacto (+54)11-2266-3053</p>
 
-    <main class="grid__container">
-        <img src="../img/arias.png" alt="" class="grid__item">
-        <img src="../img/alcaraz.png" alt="" class="grid__item">
-        <img src="../img/copetti.png" alt="" class="grid__item">
-        <img src="../img/mena.png" alt="" class="grid__item">
-        <img src="../img/sigali.png" alt="" class="grid__item">
-        <img src="../img/hauche.png" alt="" class="grid__item">
-    </main>        
 
-    <footer>
-        <h3 class="footer__sponsors">ESTOS SON NUESTROS SPONSORS</h3>
-        <div>
-            <img src="../img/Aero-1.png" alt="" class="img__aereoset">
-            <img src="../img/kappa.jpg" alt="" class="img__kappa">
+    <header class="conteiner__fluid d-flex justify-content-center p-2 ">
+        <div class="text-light ">
+          <h1 class="class">RACING CLUB DE AVELLANEDA</h1>
+          <h2 class="class">BIENVENIDOS AL PRIMER GRANDE</h2>
         </div>
-</footer>
+      </header>
+    
+      <nav class="navbar navbar-expand-lg bg-light p-3" id="Menu__bs">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="../img/escudo.png" alt="" width="50px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./historia.html">HISTORIA</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  MUCHO MAS...
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="">JUGADORES</a></li>
+                  <li><a class="dropdown-item" href="./locademia.html"> LOCADEMIA </a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="./pages/noticias.html"> NOTICIAS</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
+
+
+      <main>
+
+        <div class="row row-cols-1 row-cols-md-6 g-4 m-3 w-98">
+            <div class="col">
+              <div class="card">
+                <img src="../img/alcaraz.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center" >ALCARAZ</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="../img/arias.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">ARIAS</h5>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="../img/copetti.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">COPETTI</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="../img/sigali.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">SIGALI</h5>
+                </div>
+              </div>
+            </div>
+        
+          <div class="col">
+            <div class="card">
+              <img src="../img/hauche.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">HAUCHE</h5>
+              </div>
+            </div>
+          </div>
+       
+        <div class="col">
+            <div class="card">
+              <img src="../img/mena.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">MENA</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+
+      <section>
+
+        <div class="card text-center m-5  ">
+            <img src="../img/equipo.jpg" class="card-img" alt="...">
+            <div class="card-img-overlay ">
+              <h5 class="card-title">EQUIPO COMPLETO</h5>
+            </div>
+          </div>
+      </section>
+
+
+      <aside>
+        <div class="row row-cols-1 row-cols-md-6 g-4 m-3 w-98">
+            <div class="col">
+              <div class="card">
+                <img src="../img/gago1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center" >DIRECTOR-TECNICO FERNANDO GAGO</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="../img/insua.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">AYUDANTE-INSUA</h5>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="../img/gallego.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">AYUDANTE-GALLEGO</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="../img/maddoni.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">MEDICO-MADDONI</h5>
+                </div>
+              </div>
+            </div>
+        
+          <div class="col">
+            <div class="card">
+              <img src="../img/luzzi.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">PREPARADOR-FISICO LUZZI</h5>
+              </div>
+            </div>
+          </div>
+       
+        <div class="col">
+            <div class="card">
+              <img src="../img/cogliandro.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">AYUDANTE-COLIANDRO</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      </aside>
+
+    
+
+
+
+
+ <!-- JavaScript Bundle with Popper -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     
 </body>
 </html>

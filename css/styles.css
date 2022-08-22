@@ -3,13 +3,10 @@
     padding: 0%;
     box-sizing: border-box;
 }
-
-
 body{
     background-color:  rgb(2, 90, 117);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
-    
 }
 
 /*INDEX*/
@@ -17,30 +14,24 @@ body{
 .conteiner__fluid{
     text-shadow: 2px 2px black;
 }
-
-
-
 .galeria{
     width: 100%;
     text-align: center;
     display: grid;
     grid-template-columns: repeat(3,0.5fr);
-    
 }
 
 .p__datos{
-    background-color: white;
     font-size: 45px;
     border-color: black;
     border-style: solid;
-    text-align: center;    
+    text-align: center;  
+    background-image: linear-gradient(rgb(252, 252, 252), skyblue );
+    
 }
-
 
 .img__elemento1 p {
 font-size: 2rem;
-
-
 color: white;
 background-color: rgb(49, 125, 190);
 }
@@ -91,7 +82,6 @@ background-color: rgb(49, 125, 190);
 .footer-container{
     width: 100%;
     margin: auto;
-
 }
 
 .columnas__footer{
@@ -105,7 +95,6 @@ background-color: rgb(49, 125, 190);
     color: white;
 
 }
-
 /*NOTICIAS*/
     #Menu__bs a {
         font-size: 23px;
@@ -148,8 +137,6 @@ background-color: rgb(49, 125, 190);
     .contenedor{
         width: 100%;
     }
-
-  
     #carouselExampleIndicators{
         width: 80%;
     }
@@ -161,10 +148,6 @@ background-color: rgb(49, 125, 190);
    .card__title__equipo{
     display: none;
    }
-
-  
-
-
 
     }
 

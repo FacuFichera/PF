@@ -1,12 +1,15 @@
+/*variable*/
+body {
+  text-align: center; }
+
 * {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box; }
 
 body {
-  background-color: #025a75;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  text-align: center; }
+  background-color: gray;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
 
 /*INDEX*/
 .conteiner__fluid {
@@ -26,17 +29,17 @@ body {
   background-image: linear-gradient(#fcfcfc, skyblue); }
 
 .img__elemento1 p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: white;
   background-color: #317dbe; }
 
 .img__elemento2 p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   background-color: #317dbe;
   color: white; }
 
 .img__elemento3 p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   background-color: #317dbe;
   color: white; }
 
@@ -61,8 +64,7 @@ body {
 
 .titulo__galeria {
   background-color: white;
-  color: #025a75;
-  text-align: center; }
+  color: #025a75; }
 
 #carouselExampleIndicators {
   width: 70%; }
@@ -100,11 +102,11 @@ body {
     border-color: black;
     border-style: solid; }
   .img__elemento1 p {
-    font-size: 1.5rem; }
+    font-size: 1.5 rem; }
   .img__elemento2 p {
-    font-size: 1.5rem; }
+    font-size: 1.5 rem; }
   .img__elemento3 p {
-    font-size: 1.5rem; }
+    font-size: 1.5 rem; }
   .contenedor {
     width: 100%; }
   #carouselExampleIndicators {
@@ -113,5 +115,3 @@ body {
     display: none; }
   .card__title__equipo {
     display: none; } }
-
-

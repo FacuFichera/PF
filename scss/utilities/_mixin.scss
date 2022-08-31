@@ -1,0 +1,7 @@
+@mixin medidas($width) {
+    width: $width;
+}
+
+@mixin medidas-letras ($fontsize) {
+    font-size: $fontsize;
+}

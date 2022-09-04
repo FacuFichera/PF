@@ -272,7 +272,11 @@ body {
         .galeria__item-9 {
           background-image: url(../img/7.jpeg); }
         .galeria__item-10 {
-          background-image: url(../img/8.jpeg); }
+          background-image: url(../img/8.jpg); }
+          .galeria__item-11 {
+            background-image: url(../img/11.png); }
+            
+
       
       .wide {
         grid-column: span 2; }

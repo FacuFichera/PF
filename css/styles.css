@@ -15,7 +15,7 @@ body {
 .conteiner__fluid {
   text-shadow: 2px 2px black; }
 
-.galeria {
+.galeria__index {
   width: 100%;
   text-align: center;
   display: grid;
@@ -155,6 +155,157 @@ body {
     .noticias__contenido:hover {
       background-color: rgb(0, 0, 0); }
   
+
+
+      /*RESULTADOS*/
+
+      #tabla-container{
+        margin: 150px auto;
+        width: 600px;
+      }
+      
+      table{
+        background-color: white;
+        text-align: left;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      th, td{
+        padding: 20px;
+      }
+      
+      thead{
+        background-color: skyblue;
+        border-bottom: solid 5px rgb(52, 171, 218);
+        color: white;
+      }
+      
+      tr:nth-child(even){
+        background-color: #ddd;
+      }
+      
+      tr:hover td{
+        background-color: #296bb6;
+        color: white;
+      }
+      
+      #tabla-container-2{
+        margin: 150px auto;
+        width: 600px;
+      }
+      
+      table{
+        background-color: white;
+        text-align: left;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      th, td{
+        padding: 20px;
+      }
+      
+      thead{
+        background-color: skyblue;
+        border-bottom: solid 5px rgb(52, 171, 218);
+        color: white;
+      }
+      
+      tr:nth-child(even){
+        background-color: #ddd;
+      }
+      
+      tr:hover td{
+        background-color: #296bb6;
+        color: white;
+      }
+      
+
+      /*GALERIA*/
+
+      .gale {
+        height: 10rem; }
+        .gale__titulo {
+          color: #ffffff;
+          font-size: 4.375em;
+          text-align: center;
+          margin: 0;
+          padding-top: 5.625rem;
+          padding-top: 2rem; }
+      .carousel {
+        margin-top: 60px; }
+      .galeria {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-auto-rows: minmax(250px, auto);
+        gap: 15px;
+        padding: 20px;
+        grid-auto-flow: dense;
+        background-color: white; }
+        .galeria__item-1, .galeria__item-2, .galeria__item-3, .galeria__item-4, .galeria__item-5, .galeria__item-6, .galeria__item-7, .galeria__item-8, .galeria__item-9, .galeria__item-10 {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-image: url(../img/9.jpg);
+          align-content: center;
+          border-radius: 2px;
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          box-shadow: 1px 2px 5px 0px rgba(202, 202, 202, 0.75);
+          transition: 1s; }
+        .galeria__item-2 {
+          background-image: url(../img/1.jpg); }
+        .galeria__item-3 {
+          background-image: url(../img/2.jpg); }
+        .galeria__item-4 {
+          background-image: url(../img/3.jpg); }
+        .galeria__item-5 {
+          background-image: url(../img/4.jpg); }
+        .galeria__item-6 {
+          background-image: url(../img/10.jpg); }
+        .galeria__item-7 {
+          background-image: url(../img/5.jpg); }
+        .galeria__item-8 {
+          background-image: url(../img/6.jpeg); }
+        .galeria__item-9 {
+          background-image: url(../img/7.jpeg); }
+        .galeria__item-10 {
+          background-image: url(../img/8.jpeg); }
+      
+      .wide {
+        grid-column: span 2; }
+      
+      .galeria div {
+        transition: 1s; }
+      
+      .galeria div:hover {
+        transform: scale(1.03); }
+
+        .partidos {
+          height: auto;
+          background-color:#025a75;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; }
+          .partidos__titulo {
+            font-size: 4rem;
+            color: white;
+            align-self: center;
+            padding-top: 40px; }
+          .partidos__embeed {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 30px; }
+          .partidos__iframe {
+            padding: 51px;
+            width: 50%;
+            height: 25rem; }
+      
 
 /*MEDIA Q */
 @media (max-width: 440px) {

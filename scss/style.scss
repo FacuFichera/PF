@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: map-get($map: $premium, $key: bg-premium );
+    background-color: $Color__Principal;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     @extend %flex;
 }

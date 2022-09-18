@@ -19,7 +19,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 0.5fr); }
 .p__datos {
-  font-size: 45px;
+  font-size: 25px;
   border-color: black;
   border-style: solid;
   text-align: center;
@@ -38,9 +38,9 @@ body {
   color: white; }
 .p__index {
   color: white;
-  font-size: 50px;
+  font-size: 25px;
   text-transform: uppercase;
-  margin: 10px; }
+  margin: 0px; }
 .galeria__sponsor1 {
   width: 100%;
   margin: auto;
@@ -56,16 +56,19 @@ body {
   color: #025a75; }
 #carouselExampleIndicators {
   width: 70%; }
-.footer-container {
+.aside-container {
   width: 100%;
-  margin: auto; }
-.columnas__footer {
+  margin: auto; 
+  }
+.columnas__aside {
   width: 33.333%;
   float: left;
-  background-color: #025a75;
-  color: white; }
-.titulo__footer {
-  color: white; }
+  background-color: white;
+  color:#025a75;
+  margin-bottom: 2.5rem;
+  margin-top: 2.5rem;  }
+.titulo__aside {
+  color: #025a75 }
 .p__footer{
   text-align: center;
   justify-content: center;
@@ -76,8 +79,9 @@ body {
 }
 /*NOTICIAS*/
 #Menu__bs a {
-  font-size: 23px;
-  font-weight: bold; }
+  font-size: 20px;
+  font-weight: bold;
+}
   .Noticias {
     background-color: #ffffff;
     height: auto; }
@@ -136,7 +140,7 @@ body {
       background-color: rgb(0, 0, 0); }
       /*RESULTADOS*/
       #tabla-container{
-        margin: 150px auto;
+        margin: 50px auto;
         width: 600px;
       }
       table{
@@ -161,7 +165,7 @@ body {
         color: white;
       }
       #tabla-container-2{
-        margin: 150px auto;
+        margin: 50px auto;
         width: 600px;
       }
       table{
@@ -188,16 +192,14 @@ body {
       /*GALERIA*/
 
       .gale {
-        height: 10rem; }
+        height: 7rem; }
         .gale__titulo {
           color: #ffffff;
           font-size: 4.375em;
           text-align: center;
           margin: 0;
           padding-top: 5.625rem;
-          padding-top: 2rem; }
-      .carousel {
-        margin-top: 60px; }
+          padding-top: 2rem; } 
       .galeria {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -237,7 +239,11 @@ body {
         .galeria__item-10 {
           background-image: url(../img/8.jpg); }
           .galeria__item-11 {
-            background-image: url(../img/11.png); }
+            background-image: url(../img/11.png);
+        }
+        .galeria__item-12{
+          background-image: url(../img/11.jpg);
+        }
       .wide {
         grid-column: span 2; }
       .galeria div {
@@ -279,6 +285,18 @@ body {
   }
 
 
+  /* jugadores*/
+
+  .main__jugadores{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+  }
+  .aside__jugadores{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+  }
+
+
 /*MEDIA Q */
 @media (max-width: 420px) {
   .p__index {
@@ -317,17 +335,19 @@ body {
   }
   .gale__titulo{
     font-size: 2rem;
+    height: 10px;
   }
   .partidos__embeed{
     display: flex;
     flex-direction: column;
+    padding: 0%;
   }
   .partidos__titulo{
     font-size: 2rem;
   }
   .partidos__iframe{
     width: 100%;
-    height: 300px;
+    padding: 10px;
   }
   .noticias__class{
     display: flex;
@@ -357,5 +377,24 @@ body {
   .galeria__sponsor1{
     width: 100%;
   }
-}
 
+  .columnas__aside {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .noticias__contenido {
+    display: flex;
+    flex-direction: column; 
+  
+}
+.noticias__imagen{
+  max-width: 100%; }
+}

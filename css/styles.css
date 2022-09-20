@@ -40,7 +40,7 @@ body {
   color: white;
   font-size: 25px;
   text-transform: uppercase;
-  margin: 0px; }
+  margin: 40px; }
 .galeria__sponsor1 {
   width: 100%;
   margin: auto;
@@ -271,7 +271,7 @@ body {
           .partidos__iframe {
             padding: 51px;
             width: 50%;
-            height: 25rem; }
+            height: 30rem; }
       /*resultados*/
 
   #contenedor__tabla{
@@ -366,7 +366,7 @@ body {
   .noticia__img{
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     width: 100%;
-    height: 250px;
+    
   }
   .tabla-container{
     width: max-content;
@@ -398,3 +398,53 @@ body {
 .noticias__imagen{
   max-width: 100%; }
 }
+
+@media screen and (max-width:1024px) {
+
+  .galeria__index{
+    grid-template-columns: repeat(1,0.5fr);
+    place-content: center;
+  }
+
+  .p__index{
+    font-size: 20px;
+  }
+
+  .p__footer{
+    font-size: 30px;
+  }
+
+  .partidos__embeed{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .partidos__titulo{
+    font-size: 3rem;
+  }
+  .partidos__iframe{
+    width: 100%;
+    padding: 10px;
+    height: 20rem;
+    }
+
+  
+}
+
+@media screen and (max-width:1424px){
+
+    .noticias__contenido {
+      display: flex;
+      flex-direction: column; 
+  }
+  .noticias__imagen{
+    max-width: 100%; }
+
+    .noticia__img{
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+      width: 100%;
+    }
+}
+
+
+

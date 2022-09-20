@@ -1,352 +1,380 @@
 /*variable*/
+/*variable*/
+/*variable*/
 body {
   text-align: center; }
+
 * {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box; }
+
 body {
   background-color: #025a75;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
-  align-items: center;}
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  align-items: center; }
 
 /*INDEX*/
 .conteiner__fluid {
   text-shadow: 2px 2px black; }
-  .p__index2:hover {
-    transform: scale(1.05);
-    background-color: white;
-    color: black; }
+
+.p__index2:hover {
+  transform: scale(1.05);
+  background-color: white;
+  color: black; }
+
 .galeria__index {
   width: 100%;
   text-align: center;
   display: grid;
   grid-template-columns: repeat(3, 0.5fr); }
+
 .p__datos {
   font-size: 25px;
   border-color: black;
   border-style: solid;
   text-align: center;
   background-image: linear-gradient(#fcfcfc, skyblue); }
-  p.p__datos:hover{
-    transform: scale(1.5);
-  }
+
+p.p__datos:hover {
+  transform: scale(1.5); }
+
 .img__elemento1 p {
   font-size: 1.5rem;
   color: white;
   background-color: #317dbe; }
+
 .img__elemento2 p {
   font-size: 1.5rem;
   background-color: #317dbe;
   color: white; }
+
 .img__elemento3 p {
   font-size: 1.5rem;
   background-color: #317dbe;
   color: white; }
+
 .p__index {
   color: white;
   font-size: 25px;
   text-transform: uppercase;
   margin: 40px; }
+
 .galeria__sponsor1 {
   width: 100%;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(2, 1.5fr);
   justify-items: center; }
+
 .img__kappa {
   width: 80%; }
+
 .img__aeroset1 {
   width: 55%; }
+
 .titulo__galeria {
   background-color: white;
   color: #025a75; }
+
 #carouselExampleIndicators {
   width: 70%; }
+
 .aside-container {
   width: 100%;
-  margin: auto; 
-  }
+  margin: auto; }
+
 .columnas__aside {
   width: 33.333%;
   float: left;
   background-color: white;
-  color:#025a75;
+  color: #025a75;
   margin-bottom: 2.5rem;
-  margin-top: 2.5rem;  }
+  margin-top: 2.5rem; }
+
 .titulo__aside {
-  color: #025a75 }
-.p__footer{
+  color: #025a75; }
+
+.p__footer {
   text-align: center;
   justify-content: center;
   font-size: 50px;
-  background-color:#025a75 ;
+  background-color: #025a75;
   color: white;
-  padding-top: 10px;
-}
+  padding-top: 10px; }
+
 /*NOTICIAS*/
 #Menu__bs a {
   font-size: 20px;
-  font-weight: bold;
-}
-  .Noticias {
-    background-color: #ffffff;
-    height: auto; }
-  .titular {
-    height: 12.5rem;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start; }
-    .noticias__2 {
-      background-color:#025a75 ;
-      font-size: 4rem;
-      color: white;
-      align-self: center;
-      padding-left: 20px;
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-  .noticias__class {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    height: auto;
-    width: 100%;
-    grid-gap: 20px;
-    padding: 20px; }
-    .noticias__contenido {
-      display: flex;
-      flex-direction: row;
-      align-self: center;
-      height: auto;
-      background-color: #025a75;
-      box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
-      -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
-      -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
-      transition: 1s; }
-    .noticia__img {
-      clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
-      height: auto; }
-    .noticias__texto {
-      padding: 20px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center; }
-    .noticias__titulo {
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
-      font-size: 2rem;
-      color: #fff; }
-    .noticias__info {
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
-      font-size: 1.3rem;
-      color: #a7a7a7; }
-    .noticias__contenido:hover {
-      background-color: rgb(0, 0, 0); }
-      /*RESULTADOS*/
-      #tabla-container{
-        margin: 50px auto;
-        width: 600px;
-      }
-      table{
-        background-color: white;
-        text-align: left;
-        border-collapse: collapse;
-        width: 100%;
-      }
-      th, td{
-        padding: 20px;
-      }
-      thead{
-        background-color: skyblue;
-        border-bottom: solid 5px rgb(52, 171, 218);
-        color: white;
-      }
-      tr:nth-child(even){
-        background-color: #ddd;
-      }
-      tr:hover td{
-        background-color: #296bb6;
-        color: white;
-      }
-      #tabla-container-2{
-        margin: 50px auto;
-        width: 600px;
-      }
-      table{
-        background-color: white;
-        text-align: left;
-        border-collapse: collapse;
-        width: 100%;
-      }
-      th, td{
-        padding: 20px;
-      }
-      thead{
-        background-color: skyblue;
-        border-bottom: solid 5px rgb(52, 171, 218);
-        color: white;
-      }
-      tr:nth-child(even){
-        background-color: #ddd;
-      }
-      tr:hover td{
-        background-color: #296bb6;
-        color: white;
-      }
-      /*GALERIA*/
+  font-weight: bold; }
 
-      .gale {
-        height: 7rem; }
-        .gale__titulo {
-          color: #ffffff;
-          font-size: 2em;
-          text-align: center;
-          margin: 0;
-          padding-top: 5.625rem;
-          padding-top: 2rem; 
-          } 
-      .galeria {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        grid-auto-rows: minmax(250px, auto);
-        gap: 15px;
-        padding: 20px;
-        grid-auto-flow: dense;
-        background-color: white; }
-        .galeria__item-1, .galeria__item-2, .galeria__item-3, .galeria__item-4, .galeria__item-5, .galeria__item-6, .galeria__item-7, .galeria__item-8, .galeria__item-9, .galeria__item-10 {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          background-image: url(../img/9.jpg);
-          align-content: center;
-          border-radius: 2px;
-          background-size: cover;
-          background-position: center;
-          background-repeat: no-repeat;
-          box-shadow: 1px 2px 5px 0px rgba(202, 202, 202, 0.75);
-          transition: 1s; }
-        .galeria__item-2 {
-          background-image: url(../img/1.jpg); }
-        .galeria__item-3 {
-          background-image: url(../img/2.jpg); }
-        .galeria__item-4 {
-          background-image: url(../img/3.jpg); }
-        .galeria__item-5 {
-          background-image: url(../img/4.jpg); }
-        .galeria__item-6 {
-          background-image: url(../img/10.jpg); }
-        .galeria__item-7 {
-          background-image: url(../img/5.jpg); }
-        .galeria__item-8 {
-          background-image: url(../img/6.jpeg); }
-        .galeria__item-9 {
-          background-image: url(../img/7.jpeg); }
-        .galeria__item-10 {
-          background-image: url(../img/8.jpg); }
-          .galeria__item-11 {
-            background-image: url(../img/11.png);
-        }
-        .galeria__item-12{
-          background-image: url(../img/11.jpg);
-        }
-      .wide {
-        grid-column: span 2; }
-      .galeria div {
-        transition: 1s; }
-      .galeria div:hover {
-        transform: scale(1.03); }
-        .partidos {
-          height: auto;
-          background-color:#025a75;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center; }
-          .partidos__titulo {
-            font-size: 4rem;
-            color: white;
-            align-self: center;
-            padding-top: 40px; }
-          .partidos__embeed {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: center;
-            padding: 30px; }
-          .partidos__iframe {
-            padding: 51px;
-            width: 50%;
-            height: 30rem; }
-      /*resultados*/
-          
-      .tablas__titulo {
-        background-color: white;
-      color:  #025a75;;
-        font-size: 2em;
-        text-align: center;
-        margin: 10px;
-       
-        } 
+.Noticias {
+  background-color: #ffffff;
+  height: auto; }
 
+.titular {
+  height: 12.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start; }
 
-  #contenedor__tabla{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
+.noticias__2 {
+  background-color: #025a75;
+  font-size: 4rem;
+  color: white;
+  align-self: center;
+  padding-left: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
 
-  #contenedor__tabla>.tabla-container{
+.noticias__class {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: auto;
+  width: 100%;
+  grid-gap: 20px;
+  padding: 20px; }
+
+.noticias__contenido {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  height: auto;
+  background-color: #025a75;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  transition: 1s; }
+
+.noticia__img {
+  clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+  height: auto; }
+
+.noticias__texto {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.noticias__titulo {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2rem;
+  color: #fff; }
+
+.noticias__info {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.3rem;
+  color: #a7a7a7; }
+
+.noticias__contenido:hover {
+  background-color: black; }
+
+/*RESULTADOS*/
+#tabla-container {
+  margin: 50px auto;
+  width: 600px; }
+
+table {
+  background-color: white;
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%; }
+
+th, td {
+  padding: 20px; }
+
+thead {
+  background-color: skyblue;
+  border-bottom: solid 5px #34abda;
+  color: white; }
+
+tr:nth-child(even) {
+  background-color: #ddd; }
+
+tr:hover td {
+  background-color: #296bb6;
+  color: white; }
+
+#tabla-container-2 {
+  margin: 50px auto;
+  width: 600px; }
+
+table {
+  background-color: white;
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%; }
+
+th, td {
+  padding: 20px; }
+
+thead {
+  background-color: skyblue;
+  border-bottom: solid 5px #34abda;
+  color: white; }
+
+tr:nth-child(even) {
+  background-color: #ddd; }
+
+tr:hover td {
+  background-color: #296bb6;
+  color: white; }
+
+/*GALERIA*/
+.gale {
+  height: 7rem; }
+
+.gale__titulo {
+  color: #ffffff;
+  font-size: 2em;
+  text-align: center;
+  margin: 0;
+  padding-top: 5.625rem;
+  padding-top: 2rem; }
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-auto-rows: minmax(250px, auto);
+  gap: 15px;
+  padding: 20px;
+  grid-auto-flow: dense;
+  background-color: white; }
+
+.galeria__item-1, .galeria__item-2, .galeria__item-3, .galeria__item-4, .galeria__item-5, .galeria__item-6, .galeria__item-7, .galeria__item-8, .galeria__item-9, .galeria__item-10 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/9.jpg);
+  align-content: center;
+  border-radius: 2px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 1px 2px 5px 0px rgba(202, 202, 202, 0.75);
+  transition: 1s; }
+
+.galeria__item-2 {
+  background-image: url(../img/1.jpg); }
+
+.galeria__item-3 {
+  background-image: url(../img/2.jpg); }
+
+.galeria__item-4 {
+  background-image: url(../img/3.jpg); }
+
+.galeria__item-5 {
+  background-image: url(../img/4.jpg); }
+
+.galeria__item-6 {
+  background-image: url(../img/10.jpg); }
+
+.galeria__item-7 {
+  background-image: url(../img/5.jpg); }
+
+.galeria__item-8 {
+  background-image: url(../img/6.jpeg); }
+
+.galeria__item-9 {
+  background-image: url(../img/7.jpeg); }
+
+.galeria__item-10 {
+  background-image: url(../img/8.jpg); }
+
+.galeria__item-11 {
+  background-image: url(../img/11.png); }
+
+.galeria__item-12 {
+  background-image: url(../img/11.jpg); }
+
+.wide {
+  grid-column: span 2; }
+
+.galeria div {
+  transition: 1s; }
+
+.galeria div:hover {
+  transform: scale(1.03); }
+
+.partidos {
+  height: auto;
+  background-color: #025a75;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.partidos__titulo {
+  font-size: 4rem;
+  color: white;
+  align-self: center;
+  padding-top: 40px; }
+
+.partidos__embeed {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px; }
+
+.partidos__iframe {
+  padding: 51px;
   width: 50%;
-  }
+  height: 30rem; }
 
+/*resultados*/
+.tablas__titulo {
+  background-color: white;
+  color: #025a75;
+  font-size: 2em;
+  text-align: center;
+  margin: 10px; }
 
-  /* jugadores*/
+#contenedor__tabla {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
 
-  .jugadores__titulo {
-    background-color: white;
-    color:  #025a75;;
-    font-size: 2em;
-    text-align: center;
-    margin: 10px;
+#contenedor__tabla > .tabla-container {
+  width: 50%; }
 
-    } 
+/* jugadores*/
+.jugadores__titulo {
+  background-color: white;
+  color: #025a75;
+  font-size: 2em;
+  text-align: center;
+  margin: 10px; }
 
-  .main__jugadores{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: white;
-  }
-  .aside__jugadores{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: white;
-  }
+.main__jugadores {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white; }
 
+.aside__jugadores {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white; }
 
 /*MEDIA Q */
 @media (max-width: 420px) {
   .p__index {
     font-size: 15px;
-    text-align: center;
-   }
-    .galeria__index{
-      grid-template-columns: repeat(1,0.5fr);
-      place-content: center;
-    }
+    text-align: center; }
+  .galeria__index {
+    grid-template-columns: repeat(1, 0.5fr);
+    place-content: center; }
   .p__datos {
     background-color: white;
     font-size: 15px;
     border-color: black;
-    border-style: solid;
-    }
-    .img__elemento1 p {
-    font-size: 1.5 rem;
-    
-     }
+    border-style: solid; }
+  .img__elemento1 p {
+    font-size: 1.5 rem; }
   .img__elemento2 p {
-    font-size: 1.5 rem;
-     }
+    font-size: 1.5 rem; }
   .img__elemento3 p {
     font-size: 1.5 rem; }
   .contenedor {
@@ -356,122 +384,80 @@ body {
   .card__equipo {
     display: none; }
   .card__title__equipo {
-    display: none; } 
-    .wide{
-    grid-column: span 1;
-  }
-  .gale__titulo{
+    display: none; }
+  .wide {
+    grid-column: span 1; }
+  .gale__titulo {
     font-size: 2rem;
-    height: 10px;
-  }
-  .partidos__embeed{
+    height: 10px; }
+  .partidos__embeed {
     display: flex;
     flex-direction: column;
-    padding: 0%;
-  }
-  .partidos__titulo{
-    font-size: 2rem;
-  }
-  .partidos__iframe{
+    padding: 0%; }
+  .partidos__titulo {
+    font-size: 2rem; }
+  .partidos__iframe {
     width: 100%;
-    padding: 10px;
-  }
-  .noticias__class{
+    padding: 10px; }
+  .noticias__class {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    align-content: center;
-  }
-  .noticias__contenido{
+    align-content: center; }
+  .noticias__contenido {
     align-self: center;
     display: flex;
     flex-direction: column;
     width: 95%;
-    height: auto;
-  }
-  .noticia__img{
+    height: auto; }
+  .noticia__img {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-    width: 100%;
-    
-  }
-  .tabla-container{
-    width: max-content;
-  }
-  .p__footer{
-    font-size: 19px;
-  }
-  .galeria__sponsor1{
-    width: 100%;
-  }
-
+    width: 100%; }
+  .tabla-container {
+    width: max-content; }
+  .p__footer {
+    font-size: 19px; }
+  .galeria__sponsor1 {
+    width: 100%; }
   .columnas__aside {
     display: flex;
     flex-direction: column;
-    width: 100%;
-  }
-
-  .aside{
+    width: 100%; }
+  .aside {
     display: flex;
     flex-direction: column;
-    align-items: center;
-  }
-
+    align-items: center; }
   .noticias__contenido {
     display: flex;
-    flex-direction: column; 
-  
-}
-.noticias__imagen{
-  max-width: 100%; }
-}
+    flex-direction: column; }
+  .noticias__imagen {
+    max-width: 100%; } }
 
-@media screen and (max-width:1024px) {
-
-  .galeria__index{
-    grid-template-columns: repeat(1,0.5fr);
-    place-content: center;
-  }
-
-  .p__index{
-    font-size: 20px;
-  }
-
-  .p__footer{
-    font-size: 30px;
-  }
-
-  .partidos__embeed{
+@media screen and (max-width: 1024px) {
+  .galeria__index {
+    grid-template-columns: repeat(1, 0.5fr);
+    place-content: center; }
+  .p__index {
+    font-size: 20px; }
+  .p__footer {
+    font-size: 30px; }
+  .partidos__embeed {
     display: flex;
-    flex-direction: column;
-    
-  }
-  .partidos__titulo{
-    font-size: 3rem;
-  }
-  .partidos__iframe{
+    flex-direction: column; }
+  .partidos__titulo {
+    font-size: 3rem; }
+  .partidos__iframe {
     width: 100%;
     padding: 10px;
-    height: 20rem;
-    }
+    height: 20rem; } }
 
-  
-}
-
-@media screen and (max-width:1494px){
-
-    .noticias__contenido {
-      display: flex;
-      flex-direction: column; 
-  }
-  .noticias__imagen{
+@media screen and (max-width: 1494px) {
+  .noticias__contenido {
+    display: flex;
+    flex-direction: column; }
+  .noticias__imagen {
     max-width: 100%; }
-
-    .noticia__img{
-      clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-      width: 100%;
-    }
-}
-
-
-
+  .noticia__img {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    width: 100%; } }

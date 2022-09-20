@@ -13,6 +13,10 @@ body {
 /*INDEX*/
 .conteiner__fluid {
   text-shadow: 2px 2px black; }
+  .p__index2:hover {
+    transform: scale(1.05);
+    background-color: white;
+    color: black; }
 .galeria__index {
   width: 100%;
   text-align: center;
@@ -24,6 +28,9 @@ body {
   border-style: solid;
   text-align: center;
   background-image: linear-gradient(#fcfcfc, skyblue); }
+  p.p__datos:hover{
+    transform: scale(1.5);
+  }
 .img__elemento1 p {
   font-size: 1.5rem;
   color: white;
@@ -195,11 +202,12 @@ body {
         height: 7rem; }
         .gale__titulo {
           color: #ffffff;
-          font-size: 4.375em;
+          font-size: 2em;
           text-align: center;
           margin: 0;
           padding-top: 5.625rem;
-          padding-top: 2rem; } 
+          padding-top: 2rem; 
+          } 
       .galeria {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -273,6 +281,16 @@ body {
             width: 50%;
             height: 30rem; }
       /*resultados*/
+          
+      .tablas__titulo {
+        background-color: white;
+      color:  #025a75;;
+        font-size: 2em;
+        text-align: center;
+        margin: 10px;
+       
+        } 
+
 
   #contenedor__tabla{
     display: flex;
@@ -286,6 +304,15 @@ body {
 
 
   /* jugadores*/
+
+  .jugadores__titulo {
+    background-color: white;
+    color:  #025a75;;
+    font-size: 2em;
+    text-align: center;
+    margin: 10px;
+
+    } 
 
   .main__jugadores{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -431,7 +458,7 @@ body {
   
 }
 
-@media screen and (max-width:1424px){
+@media screen and (max-width:1494px){
 
     .noticias__contenido {
       display: flex;

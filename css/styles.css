@@ -17,9 +17,7 @@ tr:hover td {
   background-color: #296bb6;
   color: white; }
 
-body {
-  text-align: center; }
-
+/*variable*/
 * {
   margin: 0%;
   padding: 0%;
@@ -27,7 +25,8 @@ body {
 
 body {
   background-color: #025a75;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
   align-items: center; }
 
 /*INDEX*/
@@ -94,7 +93,7 @@ p.p__datos:hover {
   margin-top: 2.5rem; }
 
 .titulo__aside {
-  color: #025a75; }
+  background-color: #025a75; }
 
 .p__footer {
   text-align: center;
@@ -125,7 +124,7 @@ p.p__datos:hover {
   color: white;
   align-self: center;
   padding-left: 20px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; }
 
 .noticias__class {
   display: grid;

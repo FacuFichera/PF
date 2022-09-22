@@ -1,3 +1,21 @@
-%flex{
-    text-align: center;
+%diseño{
+    background-color:  #317dbe;
+    color: white;
+    font-size: 1.5rem;
 }
+
+%diseño__noticias{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+%tablas{
+    background-color: skyblue;
+    border-bottom: solid 5px #34abda;
+    color: white; 
+}
+
+%tablas__hover{
+    background-color: #296bb6;
+    color: white; }

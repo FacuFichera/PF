@@ -1,6 +1,7 @@
 @import"utilities/mapas";
 @import"utilities/extend";
 @import"utilities/variables";
+@import"utilities/mixin";
 
 * {
   margin: 0%;
@@ -86,7 +87,8 @@ p.p__datos:hover {
   margin-top: 2.5rem; }
 
 .titulo__aside {
-  background-color: map-get($map: $Inicial, $key:bg-premium ); }
+  background-color: map-get($map: $Inicial, $key:bg-premium );
+  color: map-get($map: $Inicial, $key:color-premium ); }
 
 .p__footer {
   text-align: center;
@@ -166,8 +168,7 @@ p.p__datos:hover {
 
 /*RESULTADOS*/
 #tabla-container {
-  margin: 50px auto;
-  width: 600px; }
+  @extend %tablas__contenedor }
 
 table {
   background-color: white;
@@ -188,8 +189,7 @@ tr:hover td {
   @extend %tablas__hover }
 
 #tabla-container-2 {
-  margin: 50px auto;
-  width: 600px; }
+  @extend %tablas__contenedor }
 
 table {
   background-color: white;
@@ -307,9 +307,8 @@ tr:hover td {
   padding: 30px; }
 
 .partidos__iframe {
-  padding: 51px;
-  width: 50%;
-  height: 30rem; }
+  @include medidas(50%,30rem,50px)
+  }
 
 /*resultados*/
 .tablas__titulo {
@@ -320,9 +319,7 @@ tr:hover td {
   margin: 10px; }
 
 #contenedor__tabla {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap; }
+  @extend %flex}
 
 #contenedor__tabla > .tabla-container {
   width: 50%; }
@@ -336,12 +333,10 @@ tr:hover td {
   margin: 10px; }
 
 .main__jugadores {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color: white; }
+  @extend %aside }
 
 .aside__jugadores {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color: white; }
+  @extend %aside }
 
 /*MEDIA Q */
 @media (max-width: 420px) {
@@ -382,8 +377,8 @@ tr:hover td {
   .partidos__titulo {
     font-size: 2rem; }
   .partidos__iframe {
-    width: 100%;
-    padding: 10px; }
+    @include medidas__2(100%,10px)
+  }
   .noticias__class {
     display: flex;
     flex-direction: column;
@@ -433,10 +428,7 @@ tr:hover td {
   .partidos__titulo {
     font-size: 3rem; }
   .partidos__iframe {
-    width: 100%;
-    padding: 10px;
-    height: 20rem; } }
-
+    @include medidas(100%,20rem,10px)} }
 @media screen and (max-width: 1494px) {
   .noticias__contenido {
     display: flex;

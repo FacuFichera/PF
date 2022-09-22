@@ -19,3 +19,19 @@
 %tablas__hover{
     background-color: #296bb6;
     color: white; }
+
+%aside{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+%flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+%tablas__contenedor{
+    margin: 50px auto;
+    width: 600px;
+}

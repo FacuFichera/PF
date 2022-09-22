@@ -17,6 +17,19 @@ tr:hover td {
   background-color: #296bb6;
   color: white; }
 
+.main__jugadores, .aside__jugadores {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white; }
+
+#contenedor__tabla {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+#tabla-container, #tabla-container-2 {
+  margin: 50px auto;
+  width: 600px; }
+
 /*variable*/
 * {
   margin: 0%;
@@ -93,7 +106,8 @@ p.p__datos:hover {
   margin-top: 2.5rem; }
 
 .titulo__aside {
-  background-color: #025a75; }
+  background-color: #025a75;
+  color: white; }
 
 .p__footer {
   text-align: center;
@@ -164,10 +178,6 @@ p.p__datos:hover {
   background-color: black; }
 
 /*RESULTADOS*/
-#tabla-container {
-  margin: 50px auto;
-  width: 600px; }
-
 table {
   background-color: white;
   text-align: left;
@@ -179,10 +189,6 @@ th, td {
 
 tr:nth-child(even) {
   background-color: #ddd; }
-
-#tabla-container-2 {
-  margin: 50px auto;
-  width: 600px; }
 
 table {
   background-color: white;
@@ -294,9 +300,9 @@ tr:nth-child(even) {
   padding: 30px; }
 
 .partidos__iframe {
-  padding: 51px;
   width: 50%;
-  height: 30rem; }
+  height: 30rem;
+  padding: 50px; }
 
 /*resultados*/
 .tablas__titulo {
@@ -305,11 +311,6 @@ tr:nth-child(even) {
   font-size: 2em;
   text-align: center;
   margin: 10px; }
-
-#contenedor__tabla {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap; }
 
 #contenedor__tabla > .tabla-container {
   width: 50%; }
@@ -321,14 +322,6 @@ tr:nth-child(even) {
   font-size: 2em;
   text-align: center;
   margin: 10px; }
-
-.main__jugadores {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color: white; }
-
-.aside__jugadores {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color: white; }
 
 /*MEDIA Q */
 @media (max-width: 420px) {
@@ -421,8 +414,8 @@ tr:nth-child(even) {
     font-size: 3rem; }
   .partidos__iframe {
     width: 100%;
-    padding: 10px;
-    height: 20rem; } }
+    height: 20rem;
+    padding: 10px; } }
 
 @media screen and (max-width: 1494px) {
   .noticias__contenido {

@@ -1,7 +1,12 @@
-@mixin medidas($width) {
+@mixin medidas($width , $height , $padding){
+
     width: $width;
+    height: $height;
+    padding: $padding;
 }
 
-@mixin medidas-letras ($fontsize) {
-    font-size: $fontsize;
+@mixin medidas__2($width , $padding) {
+    width: $width;
+    padding: $padding;
 }
+

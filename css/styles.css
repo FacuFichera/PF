@@ -25,7 +25,7 @@ tr:hover td {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap; }
-
+  
 #tabla-container, #tabla-container-2 {
   margin: 50px auto;
   width: 600px; }
@@ -116,6 +116,50 @@ p.p__datos:hover {
   background-color: #025a75;
   color: white;
   padding-top: 10px; }
+
+  footer{
+    width: 100%;
+    
+}
+.container__footer{
+  color:#025a75;
+  margin-top: 70px;
+  width: 100%;
+  text-transform: uppercase;
+  background-color:white;
+  
+}
+.box__footer .terms{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color:white;
+    font-size: 18px;
+    
+}
+.box__footer a{
+    margin-top: 10px;
+    color: #025a75;;
+    font-weight: 600;
+    
+}
+
+.box__copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+.box__copyright p{
+    margin-top: 20px;
+    color: #ffffff;
+}
+.box__copyright hr{
+    border: none;
+    height: 3px;
+    background-color: #ffffff;
+}
+
 
 /*NOTICIAS*/
 #Menu__bs a {
@@ -415,7 +459,14 @@ tr:nth-child(even) {
   .partidos__iframe {
     width: 100%;
     height: 20rem;
-    padding: 10px; } }
+    padding: 10px; } 
+    .box__footer{
+      display: flex;
+      flex-direction: column;
+      padding: 40px;
+  }
+  
+  }
 
 @media screen and (max-width: 1494px) {
   .noticias__contenido {
